@@ -13,25 +13,23 @@ class Mystatelesswidget extends StatelessWidget {
           title: Text(
             "ini Stateless Widget",
             style: TextStyle(fontSize: 20, color: Colors.white),
-            ),
+          ),
         ),
-        body: Column(mainAxisAlignment: MainAxisAlignment.center,
-          children: [
-            Image.asset('assets/images/cute.png',
+        body: Column(mainAxisAlignment: MainAxisAlignment.center, children: [
+          Image.asset(
+            'assets/images/cute.png',
             width: 150,
             height: 150,
-            ),
-            Text('Irham liat mama',
-          
+          ),
+          Text(
+            'ELZIO LIAT MAMAH',
             style: TextStyle(
-            fontSize: 38,
-            color: Colors.blue,
-            fontWeight: FontWeight.bold,
-            fontStyle: FontStyle.italic
+                fontSize: 38,
+                color: Colors.blue,
+                fontWeight: FontWeight.bold,
+                fontStyle: FontStyle.italic),
           ),
-          ),
-          ]
-        ),
+        ]),
       ),
     );
   }
